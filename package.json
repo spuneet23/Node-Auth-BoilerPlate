@@ -10,15 +10,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.382.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.1",
+    "bug-killer": "^4.2.2",
+    "busboy-body-parser": "^0.3.2",
+    "cors": "^2.8.5",
     "express": "^4.15.2",
     "jwt-simple": "^0.5.1",
+    "lien": "^1.0.1",
     "mongoose": "^4.8.6",
     "morgan": "^1.8.1",
     "nodemon": "^1.11.0",
+    "opn": "^4.0.1",
     "passport": "^0.3.2",
     "passport-jwt": "^2.2.1",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "pretty-bytes": "^3.0.1",
+    "r-json": "^1.2.2",
+    "youtube-api": "^2.0.9",
+    "youtube-video-api": "^0.3.7"
   }
 }

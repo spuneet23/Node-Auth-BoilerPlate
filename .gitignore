@@ -1,2 +1,4 @@
 node_modules
 config.js
+aws_key.json
+youtube_credentials.json

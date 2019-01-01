@@ -5,10 +5,15 @@ const morgan = require('morgan');
 const app = express();
 const router = require('./router'); 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:auth/auth');
+const cors = require("cors")
+mongoose.connect('mongodb://puneet:augmented123@ds145694.mlab.com:45694/arcards');
 
-app.use(morgan('combined'));
-app.use(bodyParser.json({type: '*/*'}));
+app.use(morgan('common'));
+// app.use(bodyParser.json({type: '*/*'}));
+const busboyBodyParser = require('busboy-body-parser');
+app.use(busboyBodyParser());
+app.use(cors());
+
 router(app);
 
 const port = process.env.PORT || 3000;
