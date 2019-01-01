@@ -9,6 +9,5 @@ module.exports = function(app) {
  
  app.get('/getCards', Card.getCards);
  
- app.post('/uploadVideo',Card.uploadVideo)
  
 }
