@@ -1,6 +1,6 @@
 const Card = require('../models/cards');
 var AWS = require('aws-sdk');
-AWS.config.loadFromPath('./aws_key.json');
+// AWS.config.loadFromPath('./aws_key.json');
 
 
 /*--------- Create Card --------*/

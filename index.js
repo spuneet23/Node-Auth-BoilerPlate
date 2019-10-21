@@ -6,7 +6,7 @@ const app = express();
 const router = require('./router'); 
 const mongoose = require('mongoose');
 const cors = require("cors")
-mongoose.connect('mongodb://puneet:augmented123@ds145694.mlab.com:45694/arcards');
+mongoose.connect('mongodb://iocluster:mLab1234@ds237588.mlab.com:37588/pass');
 
 app.use(morgan('common'));
 // app.use(bodyParser.json({type: '*/*'}));
